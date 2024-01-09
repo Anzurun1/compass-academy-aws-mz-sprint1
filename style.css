@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4ef; /* Cor de fundo para a página */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Cor de fundo para o contêiner */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do contêiner */
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Cor de fundo para o botão */
+    color: #ffffff; /* Cor do texto no botão */
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Transição suave na mudança de cor */
+}
+
+button:hover {
+    background-color: #1a741f; /* Cor de fundo do botão ao passar o mouse */
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff0000; /* Cor do texto da mensagem de erro */
+}
